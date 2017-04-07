@@ -1,0 +1,18 @@
+{
+	"MapBorder" : {
+		"MapBorder" : {
+			"xStart": 0,
+			"xEnd": 4193,
+			"yStart": 0,
+			"yEnd": 4999
+		}
+	},
+	"Nullify" : {
+		"MapWorld" : {
+			"xStart": 529,
+			"xEnd": 3714,
+			"yStart": 457,
+			"yEnd": 5000
+		}
+	}
+}
