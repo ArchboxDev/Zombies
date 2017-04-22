@@ -37,10 +37,6 @@ function InitPlayer( id, connection )
 		local NextX = this.Position.x + ( dt * x )
 		local NextY = this.Position.y + ( dt * y )
 		
-		local NextZone = Map.ZoneOf( NextX, NextY )
-		
-		if ( NextZone and NextZone.zType == "MapBorder" ) then return end
-		
 		this.Position.tx = NextX
 		this.Position.ty = NextY
 		
